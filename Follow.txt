@@ -1,0 +1,18 @@
+TELEGRAM_TOKEN=7701817434:AAHyXOa3FH4_qfnlZt1num5GFBs7o0FiWbU
+GOOGLE_BOOKS_API_KEY=AIzaSyBKgE7ZCJIQdtyZxeXAyP-wiNJqwMLb1JA
+
+pip install -r requirements.txt
+
+fir uske bad check the ngrok folder adn fir usko run kro double click krke
+- ngrok http 5000
+
+open another terminal and run the below command- (prefer git bash)
+curl -X POST "https://api.telegram.org/bot7701817434:AAHyXOa3FH4_qfnlZt1num5GFBs7o0FiWbU/setWebhook?url=<yaha pr ngrko wali jo forwarding me hoti h link wo jaha tk free.app likha  vahi tk>/webhook"
+
+
+open the telegram or visit https://t.me/v0BookBot
+
+type in the chats like "find me the books for learning Artificical inteleggence"
+
+
+Enjoy!!!!
