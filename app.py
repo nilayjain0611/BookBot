@@ -40,7 +40,7 @@ def get_books(query):
     params = {
         'q': query,
         'maxResults': 10,
-        'printType': 'books',
+        'printType': 'all',
         
         'key': GOOGLE_BOOKS_API_KEY
     }
